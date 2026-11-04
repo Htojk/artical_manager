@@ -1,0 +1,38 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Runtime data and logs
+data/
+logs/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# Secrets
+.env
+.env.local
+data/secret.key
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/coverage/
+frontend/.vite/
+frontend/.build-temp/
+backend/data-gym-cache/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local smoke-test artifacts
+artpause*/
+artsmoke*/
+install.log
